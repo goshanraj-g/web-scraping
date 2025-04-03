@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from googlesearch import search
 
 def scrape():
-    query="software engineering internships near Toronto Ontario"
+    query=""
 
     for result in search(query, num_results=10):
         url = result

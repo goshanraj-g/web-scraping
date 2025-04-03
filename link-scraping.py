@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 
 def linkScrape():
-    url = "https://news.ycombinator.com/"
+    url = ""
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
     print(soup.prettify())
